@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".LetsGo.Signup"
+        android:background="@color/colorWhite">
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="40dp">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Let's "
+                android:textColor="@color/colorAccent"
+                android:fontFamily="@font/pacifico"
+                android:textSize="30sp"
+                android:background="@color/colorWhite">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="38dp">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  go "
+                android:textColor="@color/colorPrimaryDark"
+                android:fontFamily="@font/pacifico"
+                android:textSize="30sp"
+                android:background="@color/colorWhite">
+
+        </TextView>
+    </LinearLayout>
+
+
+
+<!--    <TextView-->
+<!--            android:id="@+id/link"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_marginLeft="150dp"-->
+<!--            android:layout_marginTop="300dp"-->
+<!--            android:layout_marginBottom="-4dp"-->
+<!--            android:clickable="true"-->
+<!--            android:text="Signup">-->
+
+<!--    </TextView>-->
+
+<!--    <EditText-->
+<!--            android:id="@+id/editText"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_marginStart="48dp"-->
+<!--            android:layout_marginTop="106dp"-->
+<!--            android:ems="10"-->
+<!--            android:inputType="textPersonName"-->
+<!--            android:text="Name" />-->
+
+<!--    <EditText-->
+<!--            android:id="@+id/editText2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_marginStart="46dp"-->
+<!--            android:layout_marginTop="173dp"-->
+<!--            android:ems="10"-->
+<!--            android:inputType="textPassword" />-->
+
+<!--    <EditText-->
+<!--            android:id="@+id/editText3"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_marginStart="48dp"-->
+<!--            android:layout_marginTop="251dp"-->
+<!--            android:ems="10"-->
+<!--            android:inputType="textEmailAddress" />-->
+
+    <ScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:fitsSystemWindows="true">
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:paddingTop="56dp"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp">
+
+
+            <!--  Name Label -->
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp">
+                <EditText android:id="@+id/editText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorAccent"
+                        android:inputType="textCapWords"
+                        android:hint="Name" />
+            </RelativeLayout>
+
+            <!-- Email Label -->
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp">
+                <EditText android:id="@+id/editText3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textEmailAddress"
+                        android:textColor="@color/colorAccent"
+                        android:hint="Email" />
+            </RelativeLayout>
+
+            <!-- Password Label -->
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp">
+                <EditText android:id="@+id/editText2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPassword"
+                        android:textColor="@color/colorAccent"
+                        android:hint="Password"/>
+            </RelativeLayout>
+
+            <!-- Signup Button -->
+            <Button
+                    android:id="@+id/link"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="24dp"
+                    android:padding="12dp"
+                    android:background="@color/colorAccent"
+                    android:textColor="@color/colorWhite"
+                    android:text="Create Account"/>
+
+            <TextView android:id="@+id/link_login"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="24dp"
+                    android:text="Already a member? Login"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:gravity="center"
+                    android:textSize="16dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

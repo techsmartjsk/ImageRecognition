@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+  <LinearLayout
+          android:layout_width="350dp"
+          android:layout_height="700dp"
+          android:background="@color/colorBlue">
+      <ImageView
+              android:layout_width="wrap_content"
+              android:src="@drawable/man"
+              android:id="@+id/slideview"
+              android:layout_height="wrap_content">
+
+      </ImageView>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alpha"
+            android:textSize="40sp"
+            android:id="@+id/slideheading"
+            android:textColor="@color/colorWhite">
+
+    </TextView>
+
+  </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:cardCornerRadius="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@drawable/bg">
+<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="120dp"
+        android:id="@+id/button"
+        android:text="Register"
+        android:textColor="@color/colorWhite"
+        android:textSize="30sp"
+        android:textFontWeight="30sp">
+
+</TextView>
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="40dp">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Let's "
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/pacifico"
+                android:textSize="30sp">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="38dp">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  go "
+                android:textColor="@color/colorBlue"
+                android:fontFamily="@font/pacifico"
+                android:textSize="30sp">
+
+        </TextView>
+    </LinearLayout>
+<!--    <androidx.viewpager.widget.ViewPager-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:id="@+id/viewpager">-->
+
+<!--    </androidx.viewpager.widget.ViewPager>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_marginTop="560dp"-->
+<!--            android:background="@color/colorPrimary"-->
+<!--            android:id="@+id/linearlayout"-->
+<!--            android:orientation="horizontal">-->
+
+<!--</LinearLayout>-->
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp"
+            android:layout_marginLeft="130dp"
+            android:id="@+id/login"
+            android:text="Login"
+            android:textColor="@color/colorWhite"
+            android:textSize="30sp">
+
+    </TextView>
+
+
+
+</RelativeLayout>

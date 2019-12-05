@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        tools:context="com.example.enablor.LetsGo.FirstPage">
+
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="255dp"
+    android:layout_marginLeft="60dp"
+        tools:ignore="MissingConstraints">
+<!--&lt;!&ndash;    <ImageView&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:src="@drawable/second"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textSize="40sp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:fontFamily="@font/pacifico">&ndash;&gt;-->
+
+<!--    </ImageView>-->
+<TextView
+        android:layout_width="170dp"
+        android:layout_height="150dp"
+        android:text="Let's"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="@font/pacifico"
+        android:textSize="50sp"
+        android:textFontWeight="60sp">
+
+</TextView>
+
+
+
+
+
+</LinearLayout>
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="255dp"
+            android:layout_marginLeft="220dp"
+            tools:ignore="MissingConstraints">
+        <!--&lt;!&ndash;    <ImageView&ndash;&gt;-->
+        <!--&lt;!&ndash;            android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;            android:src="@drawable/second"&ndash;&gt;-->
+        <!--&lt;!&ndash;            android:textSize="40sp"&ndash;&gt;-->
+        <!--&lt;!&ndash;            android:fontFamily="@font/pacifico">&ndash;&gt;-->
+
+        <!--    </ImageView>-->
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="go"
+                android:textColor="@color/colorPrimary"
+                android:fontFamily="@font/pacifico"
+                android:textSize="50sp">
+
+        </TextView>
+
+
+
+
+
+    </LinearLayout>
+<!--    <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="345dp"-->
+<!--        android:layout_marginLeft="140dp">-->
+<!--&lt;!&ndash;        <ProgressBar&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:outlineAmbientShadowColor="@color/colorPrimary"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:outlineSpotShadowColor="@color/colorBlue">&ndash;&gt;-->
+
+<!--&lt;!&ndash;        </ProgressBar>&ndash;&gt;-->
+<!--    </LinearLayout>-->
+
+</RelativeLayout>

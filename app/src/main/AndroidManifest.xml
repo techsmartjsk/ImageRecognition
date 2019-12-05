@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:dist="http://schemas.android.com/apk/distribution"
+        xmlns:tools="http://schemas.android.com/tools"
+        package="com.example.enablor">
+
+    <uses-feature
+            android:name="android.hardware.Camera"
+            android:required="true" /> <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> -->
+    <!-- <uses-permission android:name="android.permission.CAMERA" /> -->
+    <!-- <uses-permission android:name="android.permission.BLUETOOTH" /> -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <dist:module dist:instant="true" />
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="Let&apos;s Go"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme"
+            tools:replace="android:label">
+        <activity android:name=".LetsGo.Profile"></activity>
+        <activity android:name=".LetsGo.Login" />
+        <activity android:name=".LetsGo.Memories" />
+        <activity android:name=".LetsGo.Travel" />
+        <activity android:name=".LetsGo.SecondPage" />
+        <activity android:name=".LetsGo.Apis" />
+        <activity android:name=".LetsGo.Dashboard" />
+        <activity android:name=".LetsGo.FirstPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LetsGo.Signup" />
+    </application>
+
+</manifest>

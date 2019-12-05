@@ -1,0 +1,77 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion "27.1.0"
+    //buildToolsVersion "x.y.z" // not needed since com.android.tools.build:gradle:3.0.0
+
+    defaultConfig {
+        minSdkVersion 25
+        targetSdkVersion 28
+        externalNativeBuild {
+            cmake {
+//                arguments "-DANDROID_STL="
+                targets "opencv_jni_shared"
+            }
+        }
+    }
+
+    buildTypes {
+        debug {
+            packagingOptions {
+                doNotStrip '**/*.so'  // controlled by OpenCV CMake scripts
+            }
+        }
+        release {
+            packagingOptions {
+                doNotStrip '**/*.so'  // controlled by OpenCV CMake scripts
+            }
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_6
+        targetCompatibility JavaVersion.VERSION_1_6
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['../../jni']
+            java.srcDirs = ['src']
+            // TODO Use original files instead of copied into build directory
+            aidl.srcDirs = ['src']
+            res.srcDirs = ['C://Users/Waheguru/AndroidStudioProjects/opencv/sources/modules/java/android_sdk/android_gradle_lib/res']
+            manifest.srcFile 'AndroidManifest.xml'
+        }
+    }
+
+    externalNativeBuild {
+//        cmake {
+//            path (project.projectDir.toString() + '/libcxx_helper/CMakeLists.txt')
+//        }
+    }
+    compileSdkVersion = 28
+    buildToolsVersion = '29.0.2'
+}
+//buildscript {
+//    repositories {
+//        // Check that you have the following line (if not, add it):
+//        google()  // Google's Maven repository
+//    }
+
+dependencies {
+    implementation("de.hdodenhof:circleimageview:2.1.0")
+//        classpath 'com.google.gms:google-services:4.3.2'
+    implementation 'com.google.firebase:firebase-database:16.0.4'
+}
+//}
+//allprojects {
+//
+//    repositories {
+//        // Check that you have the following line (if not, add it):
+//        google()  // Google's Maven repository
+//
+//    }
+//}
+

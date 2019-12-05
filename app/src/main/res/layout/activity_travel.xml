@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.enablor.LetsGo.Travel"
+        android:background="@drawable/travelbg">
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="90dp"
+            android:clickable="true"
+            android:textColor="@color/colorWhite"
+            android:textSize="60sp"
+            android:textFontWeight="10sp"
+            android:text="Travel">
+
+    </TextView>
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            >
+        <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="40dp"
+
+                android:id="@+id/link"
+                android:clickable="true"
+                android:textSize="20sp"
+                android:src="@drawable/uber">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+    </RelativeLayout>
+
+    <!--    <TextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:layout_marginTop="80dp"-->
+    <!--            android:layout_marginLeft="40dp"-->
+    <!--            android:clickable="true"-->
+    <!--            android:textSize="20sp"-->
+    <!--            android:textFontWeight="10sp"-->
+    <!--            android:text="">-->
+
+    <!--    </TextView>-->
+    <!--    <TextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:layout_marginTop="130dp"-->
+    <!--            android:layout_marginLeft="70dp"-->
+    <!--            android:id="@+id/link1"-->
+    <!--            android:clickable="true"-->
+    <!--            android:textSize="20sp"-->
+    <!--            android:text="uber">-->
+
+    <!--    </TextView>   -->
+
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="200dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="40dp"
+
+                android:id="@+id/link2"
+                android:clickable="true"
+                android:textSize="20sp"
+                android:src="@drawable/ola">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="380dp"
+            android:layout_marginLeft="200dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="40dp"
+
+                android:id="@+id/link3"
+                android:clickable="true"
+                android:textSize="20sp"
+                android:src="@drawable/meru">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="380dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="40dp"
+
+                android:id="@+id/link4"
+                android:clickable="true"
+                android:textSize="20sp"
+                android:src="@drawable/dtc">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="115dp"
+            android:layout_marginTop="40dp">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Let's "
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/pacifico"
+                android:textSize="30sp">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="38dp">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  go "
+                android:textColor="@color/colorAccent"
+                android:fontFamily="@font/pacifico"
+                android:textSize="30sp">
+
+        </TextView>
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+

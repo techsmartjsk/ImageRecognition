@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1057982836034-q0rembp200umfv11asu21719pppmuj7n.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://chrome-insight-252316.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1057982836034</string>
+    <string name="google_api_key" translatable="false">AIzaSyBRVKZne8WijyjaoVyhpRMPT_egnEGGCtQ</string>
+    <string name="google_app_id" translatable="false">1:1057982836034:android:5bc10e1eb89ab2fb4a6cdb</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBRVKZne8WijyjaoVyhpRMPT_egnEGGCtQ</string>
+    <string name="google_storage_bucket" translatable="false">chrome-insight-252316.appspot.com</string>
+    <string name="project_id" translatable="false">chrome-insight-252316</string>
+    <declare-styleable name="CameraBridgeViewBase">
+       <attr format="boolean" name="show_fps"/>
+       <attr format="integer" name="camera_id">
+          <enum name="any" value="-1"/>
+          <enum name="back" value="99"/>
+          <enum name="front" value="98"/>
+       </attr>
+    </declare-styleable>
+</resources>

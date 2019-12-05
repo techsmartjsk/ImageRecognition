@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:layout_marginLeft="70dp"
+            android:text="Food"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="@font/roboto_light"
+            android:textSize="20sp">
+
+    </TextView>
+    <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="130dp"
+            android:hint="Amount"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/Food">
+
+    </EditText>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="225dp"
+            android:layout_marginLeft="70dp"
+            android:textColor="@color/colorAccent"
+            android:text="Travel"
+            android:fontFamily="@font/roboto_light"
+            android:textSize="20sp">
+
+    </TextView>
+    <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="210dp"
+            android:hint="Amount"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/Travel">
+
+    </EditText>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="300dp"
+            android:fontFamily="@font/roboto_light"
+            android:textColor="@color/colorAccent"
+            android:text="Movie"
+            android:textSize="20sp">
+
+    </TextView>
+
+    <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="290dp"
+            android:textColor="@color/colorAccent"
+            android:hint="Amount"
+            android:id="@+id/Movie">
+
+    </EditText>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="380dp"
+            android:layout_marginLeft="70dp"
+            android:text="Persons"
+            android:fontFamily="@font/roboto_light"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp">
+
+    </TextView>
+    <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="370dp"
+            android:hint="Amount"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/Friends">
+
+    </EditText>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="470dp"
+            android:layout_marginLeft="70dp"
+            android:text="Total"
+            android:fontFamily="@font/roboto_light"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp">
+
+    </TextView>
+    <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="460dp"
+            android:hint="Total"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/Total">
+
+    </EditText>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="520dp"
+            android:layout_marginLeft="70dp"
+            android:text="Name"
+            android:fontFamily="@font/roboto_light"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp">
+
+    </TextView>
+    <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="520dp"
+            android:hint="Name "
+            android:textColor="@color/colorAccent"
+            android:id="@+id/editText">
+
+    </EditText>
+    <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="580dp"
+            android:text="Submit"
+            android:id="@+id/submit"
+            android:layout_marginLeft="200dp">
+
+    </Button>
+
+</RelativeLayout>

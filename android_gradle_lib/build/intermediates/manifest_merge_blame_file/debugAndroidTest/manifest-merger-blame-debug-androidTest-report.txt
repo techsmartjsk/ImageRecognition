@@ -1,0 +1,70 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.opencv.test" >
+4
+5    <uses-sdk
+5-->C:\Users\Waheguru\AndroidStudioProjects\Enablor Final\android_gradle_lib\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger295433477238964321.xml:5:5-74
+6        android:minSdkVersion="25"
+6-->C:\Users\Waheguru\AndroidStudioProjects\Enablor Final\android_gradle_lib\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger295433477238964321.xml:5:15-41
+7        android:targetSdkVersion="28" />
+7-->C:\Users\Waheguru\AndroidStudioProjects\Enablor Final\android_gradle_lib\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger295433477238964321.xml:5:42-71
+8
+9    <instrumentation
+9-->C:\Users\Waheguru\AndroidStudioProjects\Enablor Final\android_gradle_lib\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger295433477238964321.xml:11:5-15:65
+10        android:name="android.test.InstrumentationTestRunner"
+10-->C:\Users\Waheguru\AndroidStudioProjects\Enablor Final\android_gradle_lib\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger295433477238964321.xml:11:22-75
+11        android:functionalTest="false"
+11-->C:\Users\Waheguru\AndroidStudioProjects\Enablor Final\android_gradle_lib\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger295433477238964321.xml:14:22-52
+12        android:handleProfiling="false"
+12-->C:\Users\Waheguru\AndroidStudioProjects\Enablor Final\android_gradle_lib\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger295433477238964321.xml:13:22-53
+13        android:label="Tests for org.opencv.test"
+13-->C:\Users\Waheguru\AndroidStudioProjects\Enablor Final\android_gradle_lib\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger295433477238964321.xml:15:22-63
+14        android:targetPackage="org.opencv.test" />
+14-->C:\Users\Waheguru\AndroidStudioProjects\Enablor Final\android_gradle_lib\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger295433477238964321.xml:12:22-61
+15
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[com.google.firebase:firebase-database:16.0.4] C:\Users\Waheguru\.gradle\caches\transforms-2\files-2.1\403555e5c18d1eecc52aeedd4536f0b8\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:5-79
+16-->[com.google.firebase:firebase-database:16.0.4] C:\Users\Waheguru\.gradle\caches\transforms-2\files-2.1\403555e5c18d1eecc52aeedd4536f0b8\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:22-76
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->[com.google.firebase:firebase-database:16.0.4] C:\Users\Waheguru\.gradle\caches\transforms-2\files-2.1\403555e5c18d1eecc52aeedd4536f0b8\jetified-firebase-database-16.0.4\AndroidManifest.xml:23:5-67
+17-->[com.google.firebase:firebase-database:16.0.4] C:\Users\Waheguru\.gradle\caches\transforms-2\files-2.1\403555e5c18d1eecc52aeedd4536f0b8\jetified-firebase-database-16.0.4\AndroidManifest.xml:23:22-64
+18
+19    <application
+19-->C:\Users\Waheguru\AndroidStudioProjects\Enablor Final\android_gradle_lib\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger295433477238964321.xml:7:5-9:19
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.0.0] C:\Users\Waheguru\.gradle\caches\transforms-2\files-2.1\d26b76f53fad01317316c794edcfb262\core-1.0.0\AndroidManifest.xml:22:18-86
+21        android:debuggable="true" >
+21-->C:\Users\Waheguru\AndroidStudioProjects\Enablor Final\android_gradle_lib\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger295433477238964321.xml:7:18-43
+22        <uses-library android:name="android.test.runner" />
+22-->C:\Users\Waheguru\AndroidStudioProjects\Enablor Final\android_gradle_lib\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger295433477238964321.xml:8:9-60
+22-->C:\Users\Waheguru\AndroidStudioProjects\Enablor Final\android_gradle_lib\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger295433477238964321.xml:8:23-57
+23
+24        <activity
+24-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Waheguru\.gradle\caches\transforms-2\files-2.1\f4ed6ade343dd38f24a7b815e2cdaf48\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+25            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+25-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Waheguru\.gradle\caches\transforms-2\files-2.1\f4ed6ade343dd38f24a7b815e2cdaf48\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+26            android:exported="false"
+26-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Waheguru\.gradle\caches\transforms-2\files-2.1\f4ed6ade343dd38f24a7b815e2cdaf48\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+27            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+27-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Waheguru\.gradle\caches\transforms-2\files-2.1\f4ed6ade343dd38f24a7b815e2cdaf48\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+28
+29        <provider
+29-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Waheguru\.gradle\caches\transforms-2\files-2.1\04ded4af47ca6d80a06fe1e53e2b4414\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+30            android:name="com.google.firebase.provider.FirebaseInitProvider"
+30-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Waheguru\.gradle\caches\transforms-2\files-2.1\04ded4af47ca6d80a06fe1e53e2b4414\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+31            android:authorities="org.opencv.test.firebaseinitprovider"
+31-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Waheguru\.gradle\caches\transforms-2\files-2.1\04ded4af47ca6d80a06fe1e53e2b4414\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+32            android:exported="false"
+32-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Waheguru\.gradle\caches\transforms-2\files-2.1\04ded4af47ca6d80a06fe1e53e2b4414\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+33            android:initOrder="100" />
+33-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Waheguru\.gradle\caches\transforms-2\files-2.1\04ded4af47ca6d80a06fe1e53e2b4414\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+34
+35        <meta-data
+35-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Waheguru\.gradle\caches\transforms-2\files-2.1\b919a90136aa705c28b5a915333c5d52\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+36            android:name="com.google.android.gms.version"
+36-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Waheguru\.gradle\caches\transforms-2\files-2.1\b919a90136aa705c28b5a915333c5d52\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+37            android:value="@integer/google_play_services_version" />
+37-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Waheguru\.gradle\caches\transforms-2\files-2.1\b919a90136aa705c28b5a915333c5d52\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+38    </application>
+39
+40</manifest>

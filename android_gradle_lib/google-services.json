@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "1057982836034",
+    "firebase_url": "https://chrome-insight-252316.firebaseio.com",
+    "project_id": "chrome-insight-252316",
+    "storage_bucket": "chrome-insight-252316.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057982836034:android:5bc10e1eb89ab2fb4a6cdb",
+        "android_client_info": {
+          "package_name": "org.opencv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1057982836034-hq35mg758k10sds1ubc3okeu6b9b19a7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.Enablor",
+            "certificate_hash": "4f5d0f3ec63c296973192ac9660c795f08f47912"
+          }
+        },
+        {
+          "client_id": "1057982836034-q0rembp200umfv11asu21719pppmuj7n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRVKZne8WijyjaoVyhpRMPT_egnEGGCtQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1057982836034-q0rembp200umfv11asu21719pppmuj7n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057982836034:android:827874a1e657f0e94a6cdb",
+        "android_client_info": {
+          "package_name": "com.example.Enablor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1057982836034-q0rembp200umfv11asu21719pppmuj7n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRVKZne8WijyjaoVyhpRMPT_egnEGGCtQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1057982836034-q0rembp200umfv11asu21719pppmuj7n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057982836034:android:9e3ac021364c517e4a6cdb",
+        "android_client_info": {
+          "package_name": "com.example.enablor.LetsGo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1057982836034-q0rembp200umfv11asu21719pppmuj7n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRVKZne8WijyjaoVyhpRMPT_egnEGGCtQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1057982836034-q0rembp200umfv11asu21719pppmuj7n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
